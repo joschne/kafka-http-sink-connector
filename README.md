@@ -4,7 +4,7 @@ The HTTP sink connector allows you to listen to topic(s) and send the data to an
 
 ### Installing Connector
 
-1. Download / build jar
+1. Download / build jar.
 2. Copy the jar to the desired location. For example, you can create a directory named `<path-to-kafka>/share/kafka/plugins` then copy the connector plugin jar.
 3. Add this to the plugin path in your Connect properties file. For example, `plugin.path=/usr/local/share/kafka/plugins`. Kafka Connect finds the plugins using its plugin path. A plugin path is a comma-separated list of directories defined in the Kafka Connect's worker configuration.
 4. Start the Connect workers with that configuration. Connect will discover all connectors defined within those plugins.
